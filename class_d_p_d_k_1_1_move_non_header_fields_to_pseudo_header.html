@@ -11,7 +11,21 @@
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
-<script type="text/javascript" src="clipboard.js"></script>
+<!--  Add link to paragraphs   -->
+<script type="text/javascript" src="doxygen-awesome-paragraph-link.js"></script>
+<script type="text/javascript">
+  DoxygenAwesomeParagraphLink.init()
+</script>
+<!-- Add copy button to code fragments  -->
+<script type="text/javascript" src="doxygen-awesome-fragment-copy-button.js"></script>
+<script type="text/javascript">
+  DoxygenAwesomeFragmentCopyButton.init()
+</script>
+<!-- Add dark mode toggle -->
+<script type="text/javascript" src="doxygen-awesome-darkmode-toggle.js"></script>
+<script type="text/javascript">
+  DoxygenAwesomeDarkModeToggle.init()
+</script>
 <link href="navtree.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="navtreedata.js"></script>
 <script type="text/javascript" src="navtree.js"></script>
@@ -21,7 +35,7 @@
 <script type="text/javascript" src="search/searchdata.js"></script>
 <script type="text/javascript" src="search/search.js"></script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
-<link href="p4c.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
 </head>
 <body>
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
@@ -111,6 +125,8 @@ $(function(){initNavTree('class_d_p_d_k_1_1_move_non_header_fields_to_pseudo_hea
 
 <p>This pass identifies and collects statement which requires it's operand to be in a header and also initialize added header fields with original operand. i.e. csum_0.add&lt;tuple_0&gt;((tuple_0){f0 = m.Ingress_tmp_1,f1 = m.Ingress_tmp_2, f2 = m.Ingress_tmp_3,f3 = m.Ingress_tmp_4,f4 = m.Ingress_tmp_5}); transformed into h.dpdk_pseudo_header.pseudo = (bit&lt;16&gt;)m.Ingress_tmp_1; h.dpdk_pseudo_header.pseudo_0 = (bit&lt;16&gt;)m.Ingress_tmp_2; h.dpdk_pseudo_header.pseudo_1 = (bit&lt;8&gt;)m.Ingress_tmp_3; h.dpdk_pseudo_header.pseudo_2 = (bit&lt;32&gt;)m.Ingress_tmp_4; h.dpdk_pseudo_header.pseudo_3 = (bit&lt;32&gt;)m.Ingress_tmp_5; csum_0.add&lt;tuple_1&gt;((tuple_1){f0 = h.dpdk_pseudo_header.pseudo, f1 = h.dpdk_pseudo_header.pseudo_0,f2 = h.dpdk_pseudo_header.pseudo_1, f3 = h.dpdk_pseudo_header.pseudo_2,f4 = h.dpdk_pseudo_header.pseudo_3});.  
  <a href="#details">More...</a></p>
+
+<p><code>#include &lt;<a class="el" href="dpdk_arch_8h_source.html">dpdkArch.h</a>&gt;</code></p>
 <div class="dynheader">
 Inheritance diagram for DPDK::MoveNonHeaderFieldsToPseudoHeader:</div>
 <div class="dyncontent">

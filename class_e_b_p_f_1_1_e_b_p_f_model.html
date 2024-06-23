@@ -11,7 +11,21 @@
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
-<script type="text/javascript" src="clipboard.js"></script>
+<!--  Add link to paragraphs   -->
+<script type="text/javascript" src="doxygen-awesome-paragraph-link.js"></script>
+<script type="text/javascript">
+  DoxygenAwesomeParagraphLink.init()
+</script>
+<!-- Add copy button to code fragments  -->
+<script type="text/javascript" src="doxygen-awesome-fragment-copy-button.js"></script>
+<script type="text/javascript">
+  DoxygenAwesomeFragmentCopyButton.init()
+</script>
+<!-- Add dark mode toggle -->
+<script type="text/javascript" src="doxygen-awesome-darkmode-toggle.js"></script>
+<script type="text/javascript">
+  DoxygenAwesomeDarkModeToggle.init()
+</script>
 <link href="navtree.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="navtreedata.js"></script>
 <script type="text/javascript" src="navtree.js"></script>
@@ -21,7 +35,7 @@
 <script type="text/javascript" src="search/searchdata.js"></script>
 <script type="text/javascript" src="search/search.js"></script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
-<link href="p4c.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
 </head>
 <body>
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
@@ -112,6 +126,8 @@ $(function(){initNavTree('class_e_b_p_f_1_1_e_b_p_f_model.html',''); initResizab
 
 <p>Keep this in sync with ebpf_model.p4 and xdp_model.p4.  
  <a href="#details">More...</a></p>
+
+<p><code>#include &lt;<a class="el" href="ebpf_model_8h_source.html">ebpfModel.h</a>&gt;</code></p>
 <div class="dynheader">
 Inheritance diagram for EBPF::EBPFModel:</div>
 <div class="dyncontent">
