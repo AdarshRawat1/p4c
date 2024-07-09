@@ -595,6 +595,7 @@ var hierarchy =
         [ "P4::FindGlobalActionUses", "class_p4_1_1_find_global_action_uses.html", null ],
         [ "P4::FindRepeatedActionUses", "class_p4_1_1_find_repeated_action_uses.html", null ],
         [ "P4::FindSpecializations", "class_p4_1_1_find_specializations.html", null ],
+        [ "P4::HasTableApply", "class_p4_1_1_has_table_apply.html", null ],
         [ "P4::InstantiateDirectCalls", "class_p4_1_1_instantiate_direct_calls.html", null ],
         [ "P4::KeySideEffect", "class_p4_1_1_key_side_effect.html", [
           [ "DPDK::CopyMatchKeysToSingleStruct", "class_d_p_d_k_1_1_copy_match_keys_to_single_struct.html", null ]
@@ -605,8 +606,6 @@ var hierarchy =
         [ "P4::RenameSymbols", "class_p4_1_1_rename_symbols.html", null ],
         [ "P4::ResolveReferences", "class_p4_1_1_resolve_references.html", null ],
         [ "P4::SubstituteParameters", "class_p4_1_1_substitute_parameters.html", null ],
-        [ "P4::TablesInActions", "class_p4_1_1_tables_in_actions.html", null ],
-        [ "P4::TablesInKeys", "class_p4_1_1_tables_in_keys.html", null ],
         [ "P4::TypeInference", "class_p4_1_1_type_inference.html", null ],
         [ "P4::UnrollLoops", "class_p4_1_1_unroll_loops.html", null ]
       ] ]
@@ -855,7 +854,10 @@ var hierarchy =
         [ "EBPF::EBPFObject", "class_e_b_p_f_1_1_e_b_p_f_object.html", [
           [ "EBPF::EBPFChecksumPSA", "class_e_b_p_f_1_1_e_b_p_f_checksum_p_s_a.html", [
             [ "EBPF::EBPFHashPSA", "class_e_b_p_f_1_1_e_b_p_f_hash_p_s_a.html", null ],
-            [ "EBPF::EBPFInternetChecksumPSA", "class_e_b_p_f_1_1_e_b_p_f_internet_checksum_p_s_a.html", null ]
+            [ "EBPF::EBPFInternetChecksumPSA", "class_e_b_p_f_1_1_e_b_p_f_internet_checksum_p_s_a.html", null ],
+            [ "TC::EBPFChecksumPNA", "class_t_c_1_1_e_b_p_f_checksum_p_n_a.html", [
+              [ "TC::EBPFInternetChecksumPNA", "class_t_c_1_1_e_b_p_f_internet_checksum_p_n_a.html", null ]
+            ] ]
           ] ],
           [ "EBPF::EBPFControl", "class_e_b_p_f_1_1_e_b_p_f_control.html", [
             [ "EBPF::EBPFControlPSA", "class_e_b_p_f_1_1_e_b_p_f_control_p_s_a.html", [
@@ -888,7 +890,8 @@ var hierarchy =
                 [ "TC::CRC32ChecksumAlgorithmPNA", "class_t_c_1_1_c_r_c32_checksum_algorithm_p_n_a.html", null ]
               ] ]
             ] ],
-            [ "EBPF::InternetChecksumAlgorithm", "class_e_b_p_f_1_1_internet_checksum_algorithm.html", null ]
+            [ "EBPF::InternetChecksumAlgorithm", "class_e_b_p_f_1_1_internet_checksum_algorithm.html", null ],
+            [ "TC::InternetChecksumAlgorithmPNA", "class_t_c_1_1_internet_checksum_algorithm_p_n_a.html", null ]
           ] ],
           [ "EBPF::EBPFMethodDeclaration", "class_e_b_p_f_1_1_e_b_p_f_method_declaration.html", null ],
           [ "EBPF::EBPFParser", "class_e_b_p_f_1_1_e_b_p_f_parser.html", [
