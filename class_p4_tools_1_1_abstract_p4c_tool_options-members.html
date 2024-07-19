@@ -36,6 +36,11 @@
 <script type="text/javascript" src="search/search.js"></script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
 <link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only-darkmode-toggle.css" rel="stylesheet" type="text/css"/>
+<link href="cards.css" rel="stylesheet" type="text/css"/>
+<link href="flow.css" rel="stylesheet" type="text/css"/>
+<link href="p4c_custom.css" rel="stylesheet" type="text/css"/>
 </head>
 <body>
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
@@ -135,7 +140,7 @@ $(function(){initNavTree('class_p4_tools_1_1_abstract_p4c_tool_options.html','')
   <tr bgcolor="#f0f0f0" class="odd"><td class="entry"><b>getBinaryName</b>() (defined in <a class="el" href="class_util_1_1_options.html">Util::Options</a>)</td><td class="entry"><a class="el" href="class_util_1_1_options.html">Util::Options</a></td><td class="entry"><span class="mlabel">inline</span><span class="mlabel">protected</span></td></tr>
   <tr bgcolor="#f0f0f0" class="even"><td class="entry"><b>getBuildDate</b>() (defined in <a class="el" href="class_util_1_1_options.html">Util::Options</a>)</td><td class="entry"><a class="el" href="class_util_1_1_options.html">Util::Options</a></td><td class="entry"><span class="mlabel">inline</span><span class="mlabel">protected</span></td></tr>
   <tr bgcolor="#f0f0f0" class="odd"><td class="entry"><b>getCompileCommand</b>() (defined in <a class="el" href="class_util_1_1_options.html">Util::Options</a>)</td><td class="entry"><a class="el" href="class_util_1_1_options.html">Util::Options</a></td><td class="entry"><span class="mlabel">inline</span><span class="mlabel">protected</span></td></tr>
-  <tr bgcolor="#f0f0f0" class="even"><td class="entry"><b>getIncludePath</b>()=0 (defined in <a class="el" href="class_util_1_1_options.html">Util::Options</a>)</td><td class="entry"><a class="el" href="class_util_1_1_options.html">Util::Options</a></td><td class="entry"><span class="mlabel">protected</span><span class="mlabel">pure virtual</span></td></tr>
+  <tr bgcolor="#f0f0f0" class="even"><td class="entry"><b>getIncludePath</b>() const =0 (defined in <a class="el" href="class_util_1_1_options.html">Util::Options</a>)</td><td class="entry"><a class="el" href="class_util_1_1_options.html">Util::Options</a></td><td class="entry"><span class="mlabel">protected</span><span class="mlabel">pure virtual</span></td></tr>
   <tr class="odd"><td class="entry"><a class="el" href="class_p4_tools_1_1_abstract_p4c_tool_options.html#ae38edbab8e605eae1b578df498621db3">getToolName</a>() const</td><td class="entry"><a class="el" href="class_p4_tools_1_1_abstract_p4c_tool_options.html">P4Tools::AbstractP4cToolOptions</a></td><td class="entry"><span class="mlabel">protected</span></td></tr>
   <tr class="even"><td class="entry"><a class="el" href="class_util_1_1_options.html#a7e885cb546ba27712484c084f880e10eaff7df71c5a44921525babfaa85d7a9e5">Hide</a> enum value</td><td class="entry"><a class="el" href="class_util_1_1_options.html">Util::Options</a></td><td class="entry"><span class="mlabel">protected</span></td></tr>
   <tr bgcolor="#f0f0f0" class="odd"><td class="entry"><b>message</b> (defined in <a class="el" href="class_util_1_1_options.html">Util::Options</a>)</td><td class="entry"><a class="el" href="class_util_1_1_options.html">Util::Options</a></td><td class="entry"><span class="mlabel">protected</span></td></tr>
@@ -155,7 +160,7 @@ $(function(){initNavTree('class_p4_tools_1_1_abstract_p4c_tool_options.html','')
   <tr class="odd"><td class="entry"><a class="el" href="class_p4_tools_1_1_abstract_p4c_tool_options.html#a8ad47b8d8cd412344a126b9756ed0d47">seed</a></td><td class="entry"><a class="el" href="class_p4_tools_1_1_abstract_p4c_tool_options.html">P4Tools::AbstractP4cToolOptions</a></td><td class="entry"></td></tr>
   <tr bgcolor="#f0f0f0" class="even"><td class="entry"><b>setOutStream</b>(std::ostream *out) (defined in <a class="el" href="class_util_1_1_options.html">Util::Options</a>)</td><td class="entry"><a class="el" href="class_util_1_1_options.html">Util::Options</a></td><td class="entry"><span class="mlabel">inline</span><span class="mlabel">protected</span></td></tr>
   <tr bgcolor="#f0f0f0" class="odd"><td class="entry"><b>usage</b>() (defined in <a class="el" href="class_util_1_1_options.html">Util::Options</a>)</td><td class="entry"><a class="el" href="class_util_1_1_options.html">Util::Options</a></td><td class="entry"><span class="mlabel">protected</span><span class="mlabel">virtual</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="class_p4_tools_1_1_abstract_p4c_tool_options.html#a51dffdb8a23120c34ca7cfc428bf0457">validateOptions</a>() const</td><td class="entry"><a class="el" href="class_p4_tools_1_1_abstract_p4c_tool_options.html">P4Tools::AbstractP4cToolOptions</a></td><td class="entry"><span class="mlabel">protected</span><span class="mlabel">virtual</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="class_p4_tools_1_1_abstract_p4c_tool_options.html#a3d283edc568c0df5748b5aa5c94bfb0d">validateOptions</a>() const override</td><td class="entry"><a class="el" href="class_p4_tools_1_1_abstract_p4c_tool_options.html">P4Tools::AbstractP4cToolOptions</a></td><td class="entry"><span class="mlabel">protected</span><span class="mlabel">virtual</span></td></tr>
   <tr bgcolor="#f0f0f0" class="odd"><td class="entry"><b>~AbstractP4cToolOptions</b>()=default (defined in <a class="el" href="class_p4_tools_1_1_abstract_p4c_tool_options.html">P4Tools::AbstractP4cToolOptions</a>)</td><td class="entry"><a class="el" href="class_p4_tools_1_1_abstract_p4c_tool_options.html">P4Tools::AbstractP4cToolOptions</a></td><td class="entry"><span class="mlabel">virtual</span></td></tr>
 </table></div><!-- contents -->
 </div><!-- doc-content -->
