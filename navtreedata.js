@@ -29,7 +29,7 @@ var NAVTREE =
     [ "Getting Started", "getting_started.html", null ],
     [ "P4C Intermediate Representation (IR)", "intermediate_representation_ir.html", null ],
     [ "Frontend", "frontend.html", null ],
-    [ "Midend", "@ref midend", null ],
+    [ "Midend", "midend.html", null ],
     [ "Backends", "usergroup0.html", [
       [ "Behavioral Model Backend", "behavioral_model_backend.html", null ],
       [ "DPDK Backend", "dpdk_backend.html", null ],
@@ -74,29 +74,29 @@ var NAVTREE =
 
 var NAVTREEINDEX =
 [
-"@ref midend",
+"annotated.html",
 "class_p4_1_1_b_m_v2_1_1_pna_enum_on32_bits.html",
 "class_p4_1_1_control_plane_a_p_i_1_1_p4_info_maps.html#a906a59a9170c1ae6fcccab61f006cac7",
-"class_p4_1_1_d_p_d_k_1_1_direction_to_reg_read.html",
-"class_p4_1_1_do_convert_enums.html",
-"class_p4_1_1_e_b_p_f_1_1_e_b_p_f_hash_algorithm_type_factory_p_s_a.html",
-"class_p4_1_1_e_b_p_f_1_1_target.html#afc4be4383c4d809a1a4a1c630a9a5b76",
-"class_p4_1_1_i_r_1_1_vector.html",
-"class_p4_1_1_p4_tools_1_1_abstract_execution_state.html#af5fe44d84deeed0a1a2478abf3e6274a",
+"class_p4_1_1_d_p_d_k_1_1_direction_to_reg_read.html#a13185144f9542dd94b567f316f0d088e",
+"class_p4_1_1_do_convert_enums.html#a9ca6f838994e2ffca8f28f2258e5383d",
+"class_p4_1_1_e_b_p_f_1_1_e_b_p_f_hash_p_s_a.html",
+"class_p4_1_1_e_b_p_f_1_1_test_target.html",
+"class_p4_1_1_i_r_1_1_vector.html#a43e34c8d1aa9b5d4de46a934f05af9e7",
+"class_p4_1_1_p4_tools_1_1_abstract_p4c_tool.html",
 "class_p4_1_1_p4_tools_1_1_p4_testgen_1_1_bmv2_1_1_bmv2_concolic.html",
 "class_p4_1_1_p4_tools_1_1_p4_testgen_1_1_bmv2_1_1_token.html#a0589cee4a4ce7be0cc003eff60d30953",
 "class_p4_1_1_p4_tools_1_1_p4_testgen_1_1_execution_state_1_1_stack_frame.html#af5cef0171956ed72d440715aa30e6cbb",
 "class_p4_1_1_p4_tools_1_1_p4_testgen_1_1_pna_1_1_shared_pna_program_info.html#a37608e0b73ac918596df94007ac5f36c",
 "class_p4_1_1_p4_tools_1_1_p4_testgen_1_1_test_back_end.html#struct_p4_1_1_p4_tools_1_1_p4_testgen_1_1_test_back_end_1_1_test_info",
-"class_p4_1_1_p4_tools_1_1_trace_events_1_1_if_statement_condition.html#ad58fabef03e540e1d1769405c91411d4",
-"class_p4_1_1_parsers_unroll.html",
-"class_p4_1_1_simplify_def_use.html",
-"class_p4_1_1_test_1_1_small_step_test.html",
-"class_p4_1_1_v1_1_1_v1_parser_driver.html#a9abe1b12dfcf491bc474d12ceff91348",
-"functions_g.html",
-"namespace_p4_1_1_p4_tools_1_1_p4_testgen_1_1_bmv2.html",
-"struct_p4_1_1_d_p_d_k_1_1_top_level_ctxt.html",
-"struct_p4_1_1_r_t_t_i_1_1_detail_1_1_to_type.html"
+"class_p4_1_1_p4_tools_1_1_trace_events_1_1_assignment_statement.html#a559ffcfb11a58d1e97e2ddfdd34acb64",
+"class_p4_1_1_parser_options.html#a5340ee56a38043493e903dc08f14f77d",
+"class_p4_1_1_resolution_context.html#a07cb29d429d4ca7bc0a40a8d2720b24b",
+"class_p4_1_1_t_c_1_1_parse_pna_architecture.html",
+"class_p4_1_1_util_1_1iterator__range.html",
+"functions_func_t.html",
+"namespace_p4_1_1_p4_tools.html#afc6b9b90f494162bd4ba2673a94b7446",
+"struct_p4_1_1_d_p_d_k_1_1_convert_lookahead.html",
+"struct_p4_1_1_per_instance_substitutions.html"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';
