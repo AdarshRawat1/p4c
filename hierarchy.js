@@ -266,7 +266,10 @@ var hierarchy =
         [ "P4::ResolveReferences", "class_p4_1_1_resolve_references.html", null ],
         [ "P4::SubstituteParameters", "class_p4_1_1_substitute_parameters.html", null ],
         [ "P4::ToP4", "class_p4_1_1_to_p4.html", null ],
-        [ "P4::TypeInference", "class_p4_1_1_type_inference.html", null ],
+        [ "P4::TypeInferenceBase", "class_p4_1_1_type_inference_base.html", [
+          [ "P4::ReadOnlyTypeInference", "class_p4_1_1_read_only_type_inference.html", null ],
+          [ "P4::TypeInference", "class_p4_1_1_type_inference.html", null ]
+        ] ],
         [ "P4::UnrollLoops", "class_p4_1_1_unroll_loops.html", null ]
       ] ]
     ] ],
@@ -927,7 +930,9 @@ var hierarchy =
                 [ "P4::TC::EBPFCounterPNA", "class_p4_1_1_t_c_1_1_e_b_p_f_counter_p_n_a.html", null ]
               ] ]
             ] ],
-            [ "P4::EBPF::EBPFMeterPSA", "class_p4_1_1_e_b_p_f_1_1_e_b_p_f_meter_p_s_a.html", null ],
+            [ "P4::EBPF::EBPFMeterPSA", "class_p4_1_1_e_b_p_f_1_1_e_b_p_f_meter_p_s_a.html", [
+              [ "P4::TC::EBPFMeterPNA", "class_p4_1_1_t_c_1_1_e_b_p_f_meter_p_n_a.html", null ]
+            ] ],
             [ "P4::EBPF::EBPFRegisterPSA", "class_p4_1_1_e_b_p_f_1_1_e_b_p_f_register_p_s_a.html", null ],
             [ "P4::EBPF::EBPFTable", "class_p4_1_1_e_b_p_f_1_1_e_b_p_f_table.html", [
               [ "P4::EBPF::EBPFTablePSA", "class_p4_1_1_e_b_p_f_1_1_e_b_p_f_table_p_s_a.html", [
@@ -1134,7 +1139,7 @@ var hierarchy =
     [ "P4::TC::KeyFieldAttributes", "struct_p4_1_1_t_c_1_1_key_field_attributes.html", null ],
     [ "P4::TC::MidEnd", "class_p4_1_1_t_c_1_1_mid_end.html", null ],
     [ "P4::TC::TableAttributes", "struct_p4_1_1_t_c_1_1_table_attributes.html", null ],
-    [ "P4::TypeInference::Comparison", "class_p4_1_1_type_inference.html#struct_p4_1_1_type_inference_1_1_comparison", null ],
+    [ "P4::TypeInferenceBase::Comparison", "class_p4_1_1_type_inference_base.html#struct_p4_1_1_type_inference_base_1_1_comparison", null ],
     [ "P4::TypeUnification", "class_p4_1_1_type_unification.html", null ],
     [ "P4::UnparsedConstant", "namespace_p4.html#struct_p4_1_1_unparsed_constant", null ],
     [ "P4::UnrollLoops::loop_bounds_t", "class_p4_1_1_unroll_loops.html#struct_p4_1_1_unroll_loops_1_1loop__bounds__t", null ],
@@ -1495,7 +1500,8 @@ var hierarchy =
           [ "P4::EBPF::EBPFTablePSADirectCounterPropertyVisitor", "class_p4_1_1_e_b_p_f_1_1_e_b_p_f_table_p_s_a_direct_counter_property_visitor.html", null ],
           [ "P4::EBPF::EBPFTablePSADirectMeterPropertyVisitor", "class_p4_1_1_e_b_p_f_1_1_e_b_p_f_table_p_s_a_direct_meter_property_visitor.html", null ],
           [ "P4::EBPF::EBPFTablePSAImplementationPropertyVisitor", "class_p4_1_1_e_b_p_f_1_1_e_b_p_f_table_p_s_a_implementation_property_visitor.html", null ],
-          [ "P4::TC::EBPFTablePNADirectCounterPropertyVisitor", "class_p4_1_1_t_c_1_1_e_b_p_f_table_p_n_a_direct_counter_property_visitor.html", null ]
+          [ "P4::TC::EBPFTablePNADirectCounterPropertyVisitor", "class_p4_1_1_t_c_1_1_e_b_p_f_table_p_n_a_direct_counter_property_visitor.html", null ],
+          [ "P4::TC::EBPFTablePNADirectMeterPropertyVisitor", "class_p4_1_1_t_c_1_1_e_b_p_f_table_p_n_a_direct_meter_property_visitor.html", null ]
         ] ],
         [ "P4::EBPF::PSAErrorCodesGen", "class_p4_1_1_e_b_p_f_1_1_p_s_a_error_codes_gen.html", null ],
         [ "P4::Evaluator", "class_p4_1_1_evaluator.html", null ],
@@ -1564,6 +1570,7 @@ var hierarchy =
           [ "P4::BMV2::ParsePnaArchitecture", "class_p4_1_1_b_m_v2_1_1_parse_pna_architecture.html", null ],
           [ "P4::ParsePsaArchitecture", "class_p4_1_1_parse_psa_architecture.html", null ]
         ] ],
+        [ "P4::ReadOnlyTypeInference", "class_p4_1_1_read_only_type_inference.html", null ],
         [ "P4::ReadsWrites", "class_p4_1_1_reads_writes.html", null ],
         [ "P4::RemoveModifiedValues", "class_p4_1_1_remove_modified_values.html", null ],
         [ "P4::ResolveReferences", "class_p4_1_1_resolve_references.html", null ],
@@ -1811,6 +1818,7 @@ var hierarchy =
         [ "P4::UnnestSelectList", "class_p4_1_1_unnest_select_list.html", null ],
         [ "P4::UnrollLoops", "class_p4_1_1_unroll_loops.html", null ]
       ] ],
+      [ "P4::TypeInferenceBase", "class_p4_1_1_type_inference_base.html", null ],
       [ "P4::VisitFunctor", "class_p4_1_1_visit_functor.html", null ]
     ] ],
     [ "P4::Visitor::ChangeTracker", "class_p4_1_1_visitor_1_1_change_tracker.html", null ],
